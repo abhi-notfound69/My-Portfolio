@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <link rel="stylesheet" href="portfolio.css" />
-  <body>
-    <!--creating a nav first.-->
-    <div class="sidebar">
-      <div class="profile-logo">
-        <img src="profilelogo.jpeg" alt=""  />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="portfolio.css" />
+<link rel="stylesheet" href="mediaqueris.css">
+
+<body>
+  <!--creating a nav first.-->
+  <div class="sidebar">
+    <div class="profile-logo">
+      <img src="profilelogo.jpeg" alt="" />
+    </div>
+    <nav class="vertical-nav">
+      <div class="logo" style="padding: 15px;">Abhijeet Sinha</div>
+      <div class="navlinks">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#potfolio">Portfolio</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-      <nav class="vertical-nav">
-        <div class="logo" style="padding: 15px;">Abhijeet Sinha</div>
-        <div class="navlinks">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Resume">Resume</a></li>
-            <li><a href="#potfolio">Portfolio</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+    </nav>
+  </div>
+
+  <nav id="hamburger-nav">
+    <div class="hamburger-icon" onclick="togglemenu()">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-    <div class="main">
-      <section class="home">
-        <img src="maxresdefault.jpg" alt="backgroung-img" />
-      </section>
-    </div>
-  </body>
+    <div class="menu-links"></div>
+    <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#potfolio">Portfolio</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+  </nav>
+</body>
+
 </html>

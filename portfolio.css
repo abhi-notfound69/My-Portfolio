@@ -25,7 +25,7 @@ div.logo {
 }
 nav ul li {
   list-style: none;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
   display: block;
@@ -56,27 +56,29 @@ div.main {
   width: 80%;
   position: absolute;
 }
-
-div.main img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  
-}
 div.profile-logo {
   padding: 15px;
   padding-top: 15px;
   
 }
 
-/* adding media queries*/
-@media only screen and (max-width: 768px){
-  div.sidebar{
-    display: none;
-  }
+/*Styling humburger-nav*/
+
+#hamburger-nav{
+  display: none;
 }
-@media only screen and (max-width: 768px){
-  div.mian{
-    width: 100%;
-  }
+.hamburger-icon{
+  
+  position: relative;
 }
+
+.hamburger-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+  
+}
+
