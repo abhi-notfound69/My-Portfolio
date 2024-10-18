@@ -67,12 +67,11 @@ div.profile-logo {
 #hamburger-nav{
   display: none;
 }
-.hamburger-icon{
-  
-  position: relative;
-}
 
 .hamburger-icon{
+  padding: 10px;
+  position: fixed;
+  right: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -81,4 +80,22 @@ div.profile-logo {
   cursor: pointer;
   
 }
+.hamburger-icon span{
+  
+  width: 20px;
+  height: 2px;
+  background-color: red;
+  transition: all 0.3 ease-in-out;
+  
+}
 
+.menu-links {
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: max-content;
+  max-height: 0;
+  position: absolute;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
