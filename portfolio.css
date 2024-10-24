@@ -21,7 +21,9 @@ div.logo {
   height: 100%;
   float: left;
   position: fixed;
-  
+}
+.sidebar a:hover{
+  color: red;
 }
 nav ul li {
   list-style: none;
@@ -30,6 +32,7 @@ nav ul li {
   padding-bottom: 20px;
   display: block;
 }
+
 
 a {
   text-decoration: none;
@@ -81,10 +84,9 @@ div.profile-logo {
   
 }
 .hamburger-icon span{
-  
   width: 20px;
   height: 2px;
-  background-color: red;
+  background-color: black;
   transition: all 0.3 ease-in-out;
   
 }
