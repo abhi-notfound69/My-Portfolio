@@ -22,22 +22,47 @@ div.logo {
   float: left;
   position: fixed;
 }
-.sidebar a:hover{
-  color: red;
-}
-nav ul li {
+
+.social-links a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
   list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: rgb(26, 43, 61);
+}
+.social-links a:hover{
+  background-color: rgb(6, 93, 168);
+}
+
+
+.navlinks a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
   padding-left: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
   display: block;
+
+}
+.navlinks a:hover{
+  color: rgb(180, 177, 177);
+}
+.navlinks a:hover i{
+  color:rgb(6, 93, 168);
 }
 
-
-a {
-  text-decoration: none;
-  color: white;
-}
 
 div.profile-logo img {
   transition: border-radius ;
