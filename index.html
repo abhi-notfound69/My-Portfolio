@@ -4,19 +4,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>MyPortfolio</title>
 </head>
 <link rel="stylesheet" href="portfolio.css" />
 <link rel="stylesheet" href="mediaqueris.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-<body>
+<body >
   <!--creating a nav first.-->
-  <div class="sidebar">
+  <div id="#sidenav" class="sidebar">
     <div class="profile-logo">
       <img src="profilelogo.jpeg" alt="Abhijeet"/>
     </div>
-    <div class="logo" style="padding: 15px;">Abhijeet Sinha</div>
+    <div class="logo" style="padding: 15px;"><h3>Abhijeet Sinha</h3></div>
     <div class="social-links">
        <a href="https://www.instagram.com/abhi_jeet0048/"><i class="fa-brands fa-square-instagram"></i></a></li>
        <a href="https://github.com/abhi-notfound69"><i class="fa-brands fa-github"></i></a></li>
@@ -39,7 +39,7 @@
 
   <header>
     <nav id="hamburger-nav">
-      <div class="hamburger-icon" onclick="togglemenu()">
+      <div class="hamburger-icon" onclick="openNav()">
         <span></span>
         <span></span>
         <span></span>
@@ -54,5 +54,10 @@
       </div>
     </nav>
   </header>
+  <section class="Home">
+    <div class="image">
+      <img src="profilelogo.jpeg" alt="">
+    </div>
+  </section>
 </body>
 </html>

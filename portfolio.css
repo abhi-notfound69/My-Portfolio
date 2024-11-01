@@ -7,7 +7,14 @@ html{
 }
 body {
   margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
   background-color: rgb(235, 235, 241);
+}
+div.image img{
+  float: left;
+  width: 50%;
+  height: 500px;
 }
 /*Styling logo*/
 div.logo {
