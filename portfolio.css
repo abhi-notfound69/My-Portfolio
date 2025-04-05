@@ -10,12 +10,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-size: 100% 100vh;
-  background-color: rgb(235, 235, 241);
-}
-div.image img{
-  float: left;
-  width: 50%;
-  height: 500px;
+  background-color: rgba(211, 215, 190, 0.533);
 }
 /*Styling logo*/
 div.logo {
@@ -24,9 +19,9 @@ div.logo {
 /*styling sidebar*/
 .sidebar {
   color: white;
-  background-color: #040b14;
-  width: 300px;
-  height: 100%;
+  background-color: rgb(215, 197, 154);
+  width: 295px;
+  height: 100vh;
   float: left;
   position: fixed;
 }
@@ -73,14 +68,14 @@ div.logo {
 
 
 div.profile-logo img {
-  transition: border-radius ;
+  transition: border-radius;
   margin: auto;
   display: block;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  object-fit: cover;
-  border: 8px solid rgb(63, 63, 69);
+  object-fit:fill;
+  border: 2px solid rgb(5, 5, 24);
 }
 div.profile-logo img:hover{
   width: 130px;
@@ -94,7 +89,7 @@ div.main {
 }
 div.profile-logo {
   padding: 15px;
-  padding-top: 15px;
+  padding-top: 50px;
   
 }
 
@@ -107,6 +102,7 @@ div.profile-logo {
 .hamburger-icon{
   padding: 10px;
   position: fixed;
+  background-color: aqua;
   right: 0;
   display: flex;
   flex-direction: column;
