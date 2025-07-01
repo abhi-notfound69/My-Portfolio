@@ -10,7 +10,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-size: 100% 100vh;
-  background-color: rgba(211, 215, 190, 0.533);
+  
 }
 /*Styling logo*/
 div.logo {
@@ -19,9 +19,10 @@ div.logo {
 /*styling sidebar*/
 .sidebar {
   color: white;
-  background-color: rgb(215, 197, 154);
+  background-color: rgb(223, 215, 196);
   width: 295px;
   height: 100vh;
+  border-right: 5px solid white;
   float: left;
   position: fixed;
 }
@@ -129,4 +130,8 @@ div.profile-logo {
   position: absolute;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+}
+
+.main-contenet {
+  transform: translate(400px, 300px);
 }
