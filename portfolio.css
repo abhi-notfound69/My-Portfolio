@@ -18,8 +18,6 @@ nav,.nav-links{
   display: flex;
 }
 
-
-
 nav{
   justify-content: space-around;
   align-items: center;
@@ -49,4 +47,9 @@ a:hover{
 
 .logo:hover{
   cursor: default;
+}
+
+/* Hamburger Menu */
+#hamburger-nav{
+  display: none;
 }
