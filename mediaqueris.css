@@ -1,10 +1,10 @@
 /* adding media queries*/
 @media screen and (max-width: 1200px){
-    div.sidebar{
+    .top-navigation{
       display: none;
     }
     #hamburger-nav{
       display: flex;
-      flex-direction: column;
+      
     }
   }
