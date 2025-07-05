@@ -8,6 +8,7 @@
 
 body{
   font-family: "Poppins", sans-serif;
+  background: hwb(0 98% 2%);
 }
 
 html{
@@ -143,12 +144,14 @@ section{
   height: 400px;
   width: 400px;
   margin: auto 0;
+  border-radius: 17rem;
+  transform: translate(1rem , 3rem);
 }
 
-.homepage {
+#homepage {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 5rem;
   height: 80vh;
 }
 
@@ -157,6 +160,9 @@ section{
   align-self: center;
   text-align: center;
    
+}
+.section-text:hover{
+  cursor: default;
 }
 
 .section-text p{
@@ -179,18 +185,21 @@ section{
 }
 
 .btn-1{
-  height: 40px;
-  width: 100px;
+  width: 8rem;
+  padding: 1rem;
+  font-weight: 600;
   text-align: center;
   background: white;
-  border: 1px solid rgb(85, 85, 85);
-  border-radius: 20px;
+  border: 0.1rem solid blac;
+  border-radius: 2rem;
+  transition: all 0.3 ease-in-out;
 }
 
 .btn-container{
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   gap: 1rem;
-  margin-bottom: 1rem;
+  
 }
 
 .btn-1:hover{
@@ -200,14 +209,28 @@ section{
 }
 
 .btn-2{
-  height: 40px;
-  width: 100px;
-  text-align: center;
+  width: 8rem;
+  padding: 1rem;
   cursor: default;
   background: black;
   color: white;
-  border: 1px solid ;
-  border-radius: 20px
+  border: 0.1rem solid ;
+  border-radius: 2rem;
+  transition: all 0.3 ease-in-out;
+}
+
+.websites-link{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/*Icon*/
+.icon{
+  cursor: pointer;
+  height: 2rem;
+  border-radius: 2rem;
 }
 
 
