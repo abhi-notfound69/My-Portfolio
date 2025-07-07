@@ -10,7 +10,6 @@
 
     .homepage{
       display: flex;
-      margin: 10rem,10rem;
       flex-direction: column;
     }
   }
