@@ -12,56 +12,85 @@
 
 <body>
 
-  <nav class="top-navigation">
-    <div class="logo">Abhijeet Sinha</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#About">About</a></li>
-        <li><a href="#Experience">Experience</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <nav id="hamburger-nav">
-    <div class="logo">Abhijeet Sinha</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+  <div class="hero_page">
+    <nav class="top-navigation">
+      <div class="logo">Abhijeet Sinha</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="menu-links">
-        <li><a href="#About" onclick="toggleMenu()">About</a></li>
-        <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
+    </nav>
 
-  <section id="homepage">
-    <div class="profile-logo">
-      <img src="assets/abhijeet.jpg" alt="Profile-logo">
-    </div>
+    <nav id="hamburger-nav">
+      <div class="logo">Abhijeet Sinha</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#About" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="homepage">
+      <div class="profile-logo">
+        <img src="assets/abhijeet.jpg" alt="Profile-logo">
+      </div>
+      <div class="section-text">
+        <p class="para-1">Hello I'm</p>
+        <h1 class="title">Abhiijeet Sinha</h1>
+        <p class="para-2">Web Developer</p>
+        <div class="btn-container">
+          <button class="btn-1" onclick="window.open('./assets/Abhijeet Resume1.pdf')">
+            Download CV</button>
+          <button class="btn-2" onclick="location.href='./#contact'">
+            Contact Info.</button>
+        </div>
+        <div class="websites-link">
+          <img src="assets/25231.png" alt="github-logo" class="icon"
+            onclick="location.href='https://github.com/abhi-notfound69'" />
+          <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="icon"
+            onclick="location.href='https://www.linkedin.com/in/abhijeet-sinha-07cse/'" />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="About">
     <div class="section-text">
-      <p class="para-1">Hello I'm</p>
-      <h1 class="title">Abhiijeet Sinha</h1>
-      <p class="para-2">Web Developer</p>
-      <div class="btn-container">
-        <button class="btn-1" onclick="window.open('./assets/Abhijeet Resume1.pdf')">
-          Download CV</button>
-        <button class="btn-2" onclick="location.href='./#contact'">
-          Contact Info.</button>
-      </div>
-      <div class="websites-link">
-        <img src="assets/25231.png" alt="github-logo" class="icon"
-          onclick="location.href='https://github.com/abhi-notfound69'" />
-        <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="icon"
-          onclick="location.href='https://www.linkedin.com/in/abhijeet-sinha-07cse/'" />
+      <p class="para-1" style="font-size: 1rem; margin-bottom: 0rem;">Know More</p>
+      <h3 class="title"> About Me</h3>
+    </div>
+    <div class="about-details-container">
+      <div class="about-container">
+        <div class="about-details">
+          <img src="./assets/experience.png" alt="" class="icon">
+          <h3>Proficinecy</h3>
+          <p>"Proficiency in responsive web design and <br>front-end frameworks."</p>
+        </div>
+        <div class="about-details">
+          <img src="./assets/education.png" alt="" class="icon">
+          <h3>Education</h3>
+          <p>B.tech Bachleors Of Technology </p>
+        </div>
       </div>
     </div>
+    <p style="padding: 5rem; max-width: fit-content;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nulla vitae nam nobis ad, reiciendis
+      provident
+      officiis? Deserunt deleniti nesciunt mollitia assumenda esse neque odit. Animi recusandae quo laboriosam
+      corporis error! Aliquam et qui perspiciatis culpa nostrum quas tenetur labore dolorum! Saepe consequuntur iste
+      nulla temporibus optio expedita perspiciatis suscipit?</p>
+    <img src="./assets/arrow.png" alt="arrow-icon" class="icon-arrow" onclick="location.href='./#Experience'">
   </section>
 
   <script src="script.js"></script>
