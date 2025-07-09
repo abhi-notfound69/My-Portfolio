@@ -149,7 +149,8 @@ section{
   width: 400px;
   margin: auto 0;
   border-radius: 17rem;
-  transform: translate(1rem , 3rem);
+  transform: translate(2rem , 5rem);
+  
 }
 
 #homepage {
@@ -171,6 +172,10 @@ section{
 
 .section-text p{
   font-weight: 600;
+}
+
+.para-1{
+  text-align: center;
 }
 
 .para-1{
@@ -248,7 +253,7 @@ section{
 .about-container{
   gap: 2rem;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
 }
 .about-details-container{
