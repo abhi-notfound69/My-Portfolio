@@ -270,7 +270,7 @@ section{
   max-width: fit-content;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 1px solid;
+  border: 1px solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
@@ -280,7 +280,7 @@ section{
   padding: .75rem;
   height: 1.5rem;
   bottom: 2.5rem;
-  right: 43.5rem;
+  right: 5rem;
 }
 .icon-arrow:hover{
   border-radius: 2rem;
@@ -339,4 +339,21 @@ article .icon:hover{
   cursor: default;
 }
 
+/*Proejct Section */
+#Projects{
+  position: relative;
+}
 
+.project-image{
+  border-radius: 2rem;
+  width: 9rem;
+  height: 16rem;
+}
+
+.project-deatils.about-container{
+  height: 17rem;
+}
+.project-title{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
