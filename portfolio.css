@@ -253,7 +253,7 @@ section{
   gap: 2rem;
   justify-content: space-evenly;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 .about-details-container{
   justify-content: center;
@@ -281,6 +281,8 @@ section{
   height: 1.5rem;
   bottom: 2.5rem;
   right: 5rem;
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 2rem;
 }
 .icon-arrow:hover{
   border-radius: 2rem;
@@ -346,14 +348,11 @@ article .icon:hover{
 
 .project-image{
   border-radius: 2rem;
-  width: 9rem;
+  width: 17rem;
   height: 16rem;
 }
 
-.project-deatils.about-container{
-  height: 17rem;
-}
 .project-title{
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
