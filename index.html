@@ -12,7 +12,7 @@
 
 <body>
 
-  <div class="hero_page">
+  <div class="Front-Page">
     <nav class="top-navigation">
       <div class="logo">Abhijeet Sinha</div>
       <div>
@@ -41,7 +41,6 @@
         </div>
       </div>
     </nav>
-
     <section id="homepage">
       <div class="profile-logo">
         <img src="./assets/abhijeet.jpg" alt="Profile-logo">
@@ -53,14 +52,14 @@
         <div class="btn-container">
           <button class="btn-1" onclick="window.open('./assets/Abhijeet Resume1.pdf')">
             Download CV</button>
-          <button class="btn-2" onclick="location.href='./#contact'">
+          <button class="btn-2" onclick="location.href='./#Contact'">
             Contact Info.</button>
         </div>
         <div class="websites-link">
           <img src="assets/25231.png" alt="github-logo" class="icon"
-            onclick="location.href='https://github.com/abhi-notfound69'" />
+            onclick="window.open('https://github.com/abhi-notfound69')" />
           <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="icon"
-            onclick="location.href='https://www.linkedin.com/in/abhijeet-sinha-07cse/'" />
+            onclick="window.open('https://www.linkedin.com/in/abhijeet-sinha-07cse/')" />
         </div>
       </div>
     </section>
@@ -100,7 +99,7 @@
       <h3 class="title">Experience</h3>
     </div>
     <div class="experience-details-container">
-      <div class="about-container">
+      <div class="about-container" style="margin-top: 2rem;">
         <div class="details-container">
           <h2 class="experience-sub-title"> Frontend devlopement </h2>
           <div class="article-container">
@@ -190,44 +189,82 @@
 
   <section id="Projects">
     <div class="section-text">
-      <p class="para-1" style="font-size: 1rem; margin-bottom: 0rem; margin-top: -1rem;">Browse My Recent</p>
+      <p class="para-1" style="font-size: 1rem; margin-bottom: 0rem; ">Browse My Recent</p>
       <h3 class="title"> Projects</h3>
     </div>
     <div class="project-conainer about-details-container">
-      <div class="about-container">
+      <div class="about-container" style="margin-top: 2rem;">
         <div class="details-container">
           <img src="./assets/project1.png" alt="" class="project-image">
           <h3 class="project-title">Project One</h3>
           <div class="btn-container">
-            <button class="btn btn-1" onclick="location.href='https://github.com/abhi-notfound69'">
+            <button class="btn btn-1" onclick="window.open('https://github.com/abhi-notfound69')">
               Github</button>
-            <button class="btn btn-1" onclick="location.href='https://github.com/abhi-notfound69'">
+            <button class="btn btn-1" onclick="window.open('https://github.com/abhi-notfound69')">
               Live Demo</button>
           </div>
         </div>
         <div class="details-container">
-          <img src="./assets/projects2.png" alt="" class="project-image" style="width: 17rem;">
+          <img src="./assets/projects2.png" alt="" class="project-image">
           <h3 class="project-title">Project Two</h3>
           <div class="btn-container">
-            <button class="btn btn-1" onclick="location.href='https://github.com/abhi-notfound69'">
+            <button class="btn btn-1" onclick="window.open('https://github.com/abhi-notfound69')">
               Github</button>
-            <button class="btn btn-1" onclick="location.href='https://github.com/abhi-notfound69'">
+            <button class="btn btn-1" onclick="window.open('https://github.com/abhi-notfound69')">
               Live Demo</button>
           </div>
         </div>
         <div class="details-container">
-          <img src="./assets/projects3.png" alt="" class="project-image" style="width: 17rem;">
+          <img src="./assets/projects3.png" alt="" class="project-image">
           <h3 class="project-title">Project Three</h3>
           <div class="btn-container">
-            <button class="btn btn-1" onclick="location.href='https://github.com/abhi-notfound69'">
+            <button class="btn btn-1" onclick="window.open('https://github.com/abhi-notfound69')">
               Github</button>
-            <button class="btn btn-1" onclick="location.href='https://github.com/abhi-notfound69'">
+            <button class="btn btn-1" onclick="window.open('https://github.com/abhi-notfound69')">
               Live Demo</button>
           </div>
         </div>
       </div>
       <img src="./assets/arrow.png" alt="arrow-icon" class="icon-arrow" onclick="location.href='./#Contact'">
   </section>
+
+  <section id="Contact">
+    <div class="contact-container">
+      <div class="contact-title">
+        <div class="section-text">
+          <p class="para-1" style="font-size: 1rem; margin-bottom: 0rem; margin-top: -1rem;">Get In Touch</p>
+          <h3 class="title">Contact Me</h3>
+        </div>
+      </div>
+  
+      <div class="contact details-container">
+        <div class="contact article-container">
+          <img src="./assets/mail.png" alt="" class="icon contact-icon">
+          <p><a href="mailto:sinhaabhijeet2511@gmail.com" class="contact-link">sinhaabhijeet2511@gmail.com</a></p>
+        </div>
+        <div class="contact article-container">
+          <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/abhijeet-sinha-07cse/" class="contact-link" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <nav style="display: flex; flex-direction: column;">
+      <div class="top-navigation">
+      <ul class="nav-links">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <button id="scroll-btn" onclick="topFunction()" title="Go to Top"><img src="./assets/arrow-up-icon.webp" alt="" class="icon"></button>
+    </nav>
+  </footer>
+
+  
 
   <script src="script.js"></script>
 </body>
