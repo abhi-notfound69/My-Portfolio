@@ -412,5 +412,10 @@ footer{
   padding: 15px; 
   font-size: 18px;
   background: white;
+  border-radius: 2rem;
+}
+
+#scroll-btn:hover{
+  background-color: rgb(240, 240, 240);
 }
 
