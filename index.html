@@ -42,24 +42,26 @@
       </div>
     </nav>
     <section id="homepage">
-      <div class="profile-logo">
-        <img src="./assets/abhijeet.jpg" alt="Profile-logo">
-      </div>
-      <div class="section-text">
-        <p class="para-1">Hello I'm</p>
-        <h1 class="title">Abhiijeet Sinha</h1>
-        <p class="para-2">Web Developer</p>
-        <div class="btn-container">
-          <button class="btn-1" onclick="window.open('./assets/Abhijeet Resume1.pdf')">
-            Download CV</button>
-          <button class="btn-2" onclick="location.href='./#Contact'">
-            Contact Info.</button>
+      <div class="hero-section">
+        <div class="profile-logo">
+          <img src="./assets/abhijeet.png" alt="Profile-logo">
         </div>
-        <div class="websites-link">
-          <img src="assets/25231.png" alt="github-logo" class="icon"
-            onclick="window.open('https://github.com/abhi-notfound69')" />
-          <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="icon"
-            onclick="window.open('https://www.linkedin.com/in/abhijeet-sinha-07cse/')" />
+        <div class="section-text">
+          <p class="para-1">Hello I'm</p>
+          <h1 class="title">Abhiijeet Sinha</h1>
+          <p class="para-2">Web Developer</p>
+          <div class="btn-container">
+            <button class="btn-1" onclick="window.open('./assets/Abhijeet Resume1.pdf')">
+              Download CV</button>
+            <button class="btn-2" onclick="location.href='./#Contact'">
+              Contact Info.</button>
+          </div>
+          <div class="websites-link">
+            <img src="assets/25231.png" alt="github-logo" class="icon"
+              onclick="window.open('https://github.com/abhi-notfound69')" />
+            <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="icon"
+              onclick="window.open('https://www.linkedin.com/in/abhijeet-sinha-07cse/')" />
+          </div>
         </div>
       </div>
     </section>
@@ -236,35 +238,46 @@
           <h3 class="title">Contact Me</h3>
         </div>
       </div>
-  
-      <div class="contact details-container">
-        <div class="contact article-container">
-          <img src="./assets/mail.png" alt="" class="icon contact-icon">
-          <p><a href="mailto:sinhaabhijeet2511@gmail.com" class="contact-link">sinhaabhijeet2511@gmail.com</a></p>
-        </div>
-        <div class="contact article-container">
-          <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="icon contact-icon" />
-          <p><a href="https://www.linkedin.com/in/abhijeet-sinha-07cse/" class="contact-link" target="_blank">LinkedIn</a></p>
-        </div>
+      <div class="contact-links-container">
+        <ul class="contact-nav-links">
+          <li>
+            <img src="./assets/mail.png" alt="" class="contact icon">
+          </li>
+          <li>
+            <p><a href="mailto:sinhaabhijeet2511@gmail.com">sinhaabhijeet2511@gmail.com</a></p>
+          </li>
+        </ul>
+        <ul class="contact-nav-links">
+          <li>
+            <img src="assets/6bab3017350ca04c6fa05569672bd31e.jpg" alt="linkedin-logo" class="contact icon"/>          
+          </li>
+          <li>
+            <P><a href="https://www.linkedin.com/in/abhijeet-sinha-07cse/"> LinkedIn</a></P>
+          </li>
+
+            <p><a href=""></a></p>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
-  
+
   <footer>
     <nav style="display: flex; flex-direction: column;">
       <div class="top-navigation">
-      <ul class="nav-links">
-        <li><a href="#About">About</a></li>
-        <li><a href="#Experience">Experience</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </div>
-    <button id="scroll-btn" onclick="topFunction()" title="Go to Top"><img src="./assets/arrow-up-icon.webp" alt="" class="icon"></button>
+        <ul class="nav-links">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <button id="scroll-btn" onclick="topFunction()" title="Go to Top"><img src="./assets/arrow-up-icon.webp" alt=""
+          class="icon"></button>
     </nav>
   </footer>
 
-  
+
 
   <script src="script.js"></script>
 </body>

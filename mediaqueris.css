@@ -1,16 +1,61 @@
 /* adding media queries*/
+@media screen and(max-width: 1400px){
+  #homepage{
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-container{
+    flex-wrap: wrap;
+  }
+}
 @media screen and (max-width: 1200px){
+  /* Hero Section */
     .top-navigation{
       display: none;
     }
     #hamburger-nav{
       display: flex;
-      
     }
 
-    .homepage{
-      display: flex;
+    .icon-arrow{
+      display: none;
+    }
+
+    .hero-section{
+      padding: 0;
+    }
+
+    .profile-logo{
+      width: 275px;
+      height: 275px;
+      margin: auto 5%;
+    }
+
+    .profile-logo img{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    section{
+      margin: 0 5%;
+      height: fit-content;
+    }
+
+    /* About Section */
+    .about-container{
+      margin: 5% 0;
       flex-direction: column;
+      width: fit-content;
+    }
+
+    /* Contact Section */
+
+    .contact-links-container{
+      flex-direction: column;
+      padding: 15px;
+      gap: 1rem;
+      font-size: small;
     }
   }
 
