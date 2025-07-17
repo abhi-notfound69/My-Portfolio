@@ -18,7 +18,7 @@ Welcome to **My Portfolio** – a personal website to showcase my skills, projec
 
 - **Frontend:** HTML, CSS, JavaScript 
 - **Styling:** CSS3 
-- **Deployment:** GitHub Pages / Vercel / Netlify
+- **Deployment:** GitHub Pages / Netlify
 
 ## 📁 Folder Structure
 
