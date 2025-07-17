@@ -12,7 +12,7 @@ Welcome to **My Portfolio** – a personal website to showcase my skills, projec
 - 🧑‍💼 About Me section
 - 🛠️ Experiences
 - 📂 Project showcase with live links
-- 📞 Contact form integration
+- 📞 Contact 
 
 ## 🛠️ Tech Stack
 
