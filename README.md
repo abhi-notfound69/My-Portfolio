@@ -27,6 +27,6 @@ My-Portfolio/
 ├── assets/            # Images, icons, and other static files
 ├── index.html         # Main entry point
 ├── mediaqueries.css   # MediaQueries file
-├── portfolio.css/          # Stylesheets
+├── portfolio.css/     # Stylesheets
 ├── script.js/         # JavaScript files
 └── README.md          # Project documentation
